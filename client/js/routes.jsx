@@ -6,7 +6,7 @@ import { Router, Route, IndexRoute }  from 'react-router';
 import appHistory                     from './history';
 import Index                          from './components/layout/index';
 import Home                           from './components/home';
-import SignUp                         from './components/sign_up/sign_up';
+import Register                       from './components/register/register';
 import NotFound                       from './components/common/not_found';
 
 export default (
@@ -14,8 +14,8 @@ export default (
     <Route path='/' component={Index}>
       <IndexRoute component={Home} />
     </Route>
-    <Route path='/signup' component={Index}>
-      <IndexRoute component={SignUp} />
+    <Route path='/register' component={Index}>
+      <IndexRoute component={Register} />
     </Route>
     <Route path='*' component={NotFound} />
   </Router>
