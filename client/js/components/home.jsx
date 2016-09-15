@@ -40,7 +40,7 @@ export default class Home extends React.Component {
                         to create the future of tech in Utah. <br/>
                     </p><br/>
                     <div className="card-action">
-                      <a href="#" className="waves-light brown lighten-5 btn text-blue default-background">Register HERE</a>
+                      <a href="https://hackustate.typeform.com/to/SiqUcO" className="waves-light brown lighten-5 btn text-blue default-background">Register HERE</a>
                     </div>
                   </div>
                 </div>
