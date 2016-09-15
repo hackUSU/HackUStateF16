@@ -52,7 +52,7 @@ export default class Home extends React.Component {
                 <div className="card text-blue default-background">
                   <div className="card-content">
                     <span className="card-title">FAQ</span>
-                    <p>
+                      <p>
                       What is a hackathon?<br/><br/>
                       A hackathon is an event for students at all skill levels; which encourages learning new technology, collaborating with other students, and creating something mind-blowing.<br/><br/>
                       How can I register?<br/><br/>
@@ -66,7 +66,7 @@ export default class Home extends React.Component {
                       What should I bring?<br/><br/>
                       All attendees are required to bring their valid student ID for admission (name must match registration) and a laptop for hacking.<br/><br/>
                       Are there any rules?<br/><br/>
-                      USU is a dry campus (no alcohol) but we'll have lots of energy drinks! Please no firearms, knives, or weapons of any kind. Also, we expect all hackers to follow MLH's Code of Conduct.<br/><br/>
+                      USU is a dry campus (no alcohol) but we'll have lots of energy drinks! Please no firearms, knives, or weapons of any kind. Also, we expect all hackers to follow MLH's <a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct.</a><br/><br/>
                       What food will you provide?<br/><br/>
                       All meals from Lunch on Friday to Dinner on Saturday, as well as snacks in between, are covered by us. We&#39;ll try to accommodate dietary restrictions as best we can!<br/><br/>
                       Other Questions?<br/><br/>
