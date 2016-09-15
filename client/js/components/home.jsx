@@ -18,6 +18,9 @@ export default class Home extends React.Component {
           <Scroll.Element name='home'>
             <div className='row' style={{'marginTop': '-5rem'}}>
               <img src={assets('./images/logo-with-text.png')} className='responsive-img'/>
+              <a id="mlh-trust-badge" style={{display:'block',maxWidth:'100px',minWidth:'60px',position:'fixed',right:'50px',top:'0',width:'10%',zIndex:'10000'}}
+              href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank">
+              <img src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style={{width:'100%'}}/></a>
             </div>
           </Scroll.Element>
 
@@ -120,7 +123,7 @@ export default class Home extends React.Component {
                     <div className="card-content">
                       <span className="card-title">Sponsors</span><br/><br/>
                       <div className="divider default-background" style={{paddingBottom: '50px'}}></div>
-                      <a href="http://mlh.io"><img src={assets('./images/Major_League_Hacking_logo.png')} className='responsive-img scale-image'/></a><br/><br/>
+                      <a href="http://mlh.io"><img src={assets('./images/mlh-logo-color.png')} className='responsive-img scale-image'/></a><br/><br/>
                       <div className="divider default-background" style={{paddingBottom: '50px'}}></div>
                       <a href="http://amadeus.com"><img src={assets('./images/amadeus.png')} className='responsive-img scale-image'/></a><br/><br/>
                       <div className="divider default-background" style={{paddingBottom: '50px'}}></div>
