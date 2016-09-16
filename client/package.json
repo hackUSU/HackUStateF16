@@ -31,7 +31,6 @@
     "materialize-css": "^0.97.7",
     "react": "15.2.1",
     "react-dom": "15.2.1",
-    "react-materialize": "^0.16.4",
     "react-parallax": "^0.4.3",
     "react-proxy-loader": "0.3.4",
     "react-redux": "4.4.5",
